@@ -1,0 +1,175 @@
+@import url("reset.css");
+
+.center {
+text-align: center;
+float: center;
+}
+
+#nicksta{
+           border: solid;
+           border-color:#8aa5d1;
+           margin:30px;
+           
+           width: 90%;
+           margin-top: 20px;
+           margin-bottom:20px;
+           
+           font-family: Arial, Helvetica, sans-serif;
+           background-color: #ffffff;
+           border-radius: 10px; 
+   } 
+ #galleria  {
+     
+           border: solid;
+           border-color:#8aa5d1;
+           margin:30px;
+           margin-top: 20px;
+           margin-bottom:20px;
+           
+           font-family: Arial, Helvetica, sans-serif;
+           
+           font-weight: bold;
+           background-color: #ffffff;
+           border-radius: 10px;
+       }
+.media{
+           margin:10px;
+           margin-top: 20px;
+           margin-bottom:20px;
+           
+}
+  #LämnaSynpunkter{
+           border: solid;
+           border-color:#8aa5d1;
+           margin:30px;
+           
+           width: 100%;
+           margin-top: 20px;
+           margin-bottom:20px;
+           
+           font-family: Arial, Helvetica, sans-serif;
+           background-color: #ffffff;
+           border-radius: 10px; 
+   }
+
+   #Vädret{
+           /*box-shadow: 2px 2px 5px 3px #8aa5d1;*/
+           border: solid;
+           border-color:#8aa5d1;
+           /*box-shadow: 2px -4px 2px #8aa5d1;*/
+           font-family: Arial, Helvetica, sans-serif;
+           
+           margin-left: 30px;
+           width: 50%;
+           margin-top: 20px;
+           margin-bottom:20px;
+                
+           font-family: Arial, Helvetica, sans-serif;
+           border-radius: 10px;   
+   }
+   
+   #Vädret{
+   float: right;
+  
+   }
+ 
+   #Tågen{
+           border: solid;
+           border-color:#8aa5d1;
+           margin:30px;
+           margin-left: 30px;
+           width: 40%;
+           margin-top: 20px;
+           margin-bottom:20px;
+           font-family: Arial, Helvetica, sans-serif;
+           border-radius: 10px;   
+   }
+   #TågTitel{
+   background-color:darkmagenta;
+       color:white;
+   }
+
+   #VäderTitel{
+   background-color:darkmagenta;
+       color:white;
+   }
+
+ .header{
+   background-image:url("../assets/images/layout/header-sky.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   }
+ .header .h1sansserif {
+           font-family: Arial, Helvetica, sans-serif; 
+           font-weight: bold;
+           font-size: 1.7em;
+           font-size: 20;
+           color:#242291;
+           padding: 30px;
+           margin-top: 0px; 
+           margin-bottom:0px;
+           color:#242291;
+   }
+.header .thick {
+           font-weight: bold;
+           margin:30px;
+           margin-top: -15px;
+           margin-bottom: 0.6px;
+           color:#242291;
+       }
+   
+.text {
+           margin:30px;
+           margin-top: 50px;
+           margin-left: 30px;
+           margin-bottom:0px;
+           font-family: Arial, Helvetica, sans-serif;
+           color: black;
+       } 
+  
+
+ #galleria {
+           float:right;
+       }
+ 
+ 
+.captionfont{
+       font-family: Arial, Helvetica, sans-serif;
+       color:black;
+       font-size: 0.8em;
+       }
+
+.footer{
+   margin-top: 150px;
+   border-top: solid;
+   border-top-color: #8aa5d1;
+   background-color:#ffffff;
+   position: fixed, bottom;
+      
+}
+
+
+@media only screen  and (max-width: 600px) { 
+   div#wrapper {
+           width: 400px;
+       }
+
+       div.header {
+           background-image: url("../assets/images/layout/header-sky.jpg");
+           height: 93px;
+           position: relative;
+       }
+
+       div.header h1 {
+           font-size: 140%;
+       }
+
+ 
+       #galleria {
+          
+           float: top;
+           width: 100%;
+       }
+
+       } 
+
